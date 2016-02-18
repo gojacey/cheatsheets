@@ -1,0 +1,12 @@
+#scp in local computer
+scp tf.bed username@tscc.sdsc.edu:~/code/biom262-2016/weeks/week01/data
+
+#make aliases in ~/.bashrc
+#on tscc
+nano ~/.bashrc
+alias ll='ls -lh'
+source ~/.bashrc
+#the commands in .bashrc (personal profile) will be executed every time login to tscc
+
+#in command line
+#ctrl+a jump to front of line; ctrl+e jump to end of line
